@@ -15,6 +15,9 @@ lucky_numbers.sort()
 print(lucky_numbers)
 print(friends)
 
+friends2 = friends.copy()
+friends2.append("Ole")
+print(friends2)
 
 friends.extend(lucky_numbers)   # Inserts the list lucky_numbers
 friends.insert(2, "Julie")      # Insert with index, value
